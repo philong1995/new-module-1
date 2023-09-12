@@ -1,0 +1,33 @@
+body{
+    padding: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: black solid 1px;
+    padding: 20px;
+}
+th{
+    font-size: 16px;
+    font-family: "Palatino Linotype",cursive;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    background-color: #d61b06;
+    padding: 20px;
+    border: white solid 1px;
+}
+td{
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #5f6062;
+    font-size: 13px;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+.hover {
+    background: red;
+}

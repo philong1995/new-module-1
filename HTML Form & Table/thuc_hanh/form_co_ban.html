@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Cơ Bản</title>
+</head>
+<style>
+    .font{
+        font-family: "Lucida Console","Lucida Sans Unicode",Tahoma,sans-serif;
+    }
+</style>
+<body>
+<form class="font">
+    <fieldset style="width:350px ">
+    <h2>Order Form</h2>
+    <p>What would you like to buy?</p>
+    <label>
+        <select >
+            <option value=" ">A</option>
+            <option>B (+ 0,5$)</option>
+            <option>C (+0.5$)</option>
+        </select>
+    </label>
+    <p>How many would you like to order?</p>
+    <label>
+        <input type="radio" name="rd">1 - 10$<br>
+        <input type="radio" name="rd">2 - 20$<br>
+        <input type="radio" name="rd">3 - 25$<br>
+    </label>
+    <p>Name<span style="color: red">*</span></p>
+    <label>
+        <input type="text" placeholder="FirstName" name="firstName" size="15">
+        <input type="text" placeholder="LastName" name="lastName" size="15">
+    </label>
+    <p>Email</p>
+    <label>
+        <input type="text" name="email" size="35">
+    </label>
+    <p>Phone Number</p>
+    <label>
+        <input type="text" size="5"> - <input type="text" size="5"> - <input type="text" size="5">
+        <br>
+        <br>
+    </label>
+    <input type="button" name="buttonSubmit" value="Submit">
+    </fieldset>
+</form>
+</body>
+</html>
