@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Đơn Giản</title>
+    <link rel="stylesheet" type="text/css" href="css/form_don_gian_2.css">
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th colspan="2">
+                Đăng kí học viên.
+            </th>
+        </tr>
+        <tr>
+            <td><span>Họ và tên</span></td>
+            <td>
+                <label>
+                    <input type="text" name="yourName">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Ngày sinh</span></td>
+            <td>
+                <label>
+                    <input type="date" name="dateOfBirth">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Giới tính</span></td>
+            <td>
+                <label>
+                    <input type="radio" name="gender">Nam
+                    <input type="radio" name="gender">Nữ
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Địa chỉ</span></td>
+            <td>
+                <label>
+                    <textarea name="address"></textarea>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Lớp</span></td>
+            <td>
+                <label>
+                    <select>
+                        <option name="class">-Chọn lớp-</option>
+                        <option name="class">Lớp thường</option>
+                        <option name="class">Lớp chất lượng cao</option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Email</span></td>
+            <td>
+                <label>
+                    <input type="email" name="email">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td><span>Điện thoại</span></td>
+            <td>
+                <label>
+                    <input type="text" name="phoneNumber">
+                </label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <label>
+                    <input type="submit" name="submit" value="Đăng ký">
+                    <input type="reset" name="reset" value="Nhập lại">
+                </label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

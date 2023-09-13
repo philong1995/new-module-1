@@ -1,0 +1,27 @@
+span{
+    text-align: left;
+    color: dodgerblue;
+}
+
+form{
+    background-color: yellow;
+    width: 350px;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+}
+
+th{
+    color: blue;
+    background-color: darkseagreen;
+    text-align: left;
+    padding: 5px;
+}
+
+td,tr{
+    padding: 5px;
+}

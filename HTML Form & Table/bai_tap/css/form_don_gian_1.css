@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: #d61b06;
+    text-align: center;
+    color: #dddddd;
+    padding: 10px;
+    width: 400px;
+}
+body{
+    background-color: dodgerblue;
+}
+form{
+    background-color: white;
+    width: 400px;
+}
+
+td{
+    text-align: right;
+    color: blue;
+    padding: 10px;
+}
+
+td:nth-child(even){
+    text-align: justify;
+    color: darkorange;
+}
