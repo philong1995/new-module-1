@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
 </head>
 <body>
-$END$
+<fieldset>
+    <legend>
+        <h1 style="color: #d61b06">Calculator</h1>
+    </legend>
+   <p>
+       <input type="text" id="number1">
+       <input type="text" id="number2">
+   </p>
+    <p>
+        <input type="button" value="Addition(+)" onclick="add()">
+        <input type="button" value="Subtraction(-)" onclick="sub()">
+        <input type="button" value="Multiplication(x)" onclick="mul()">
+        <input type="button" value="Division(/)" onclick="div()">
+    </p>
+    <p id="result"></p>
+</fieldset>
 </body>
 </html>
+<script src="js/bai_tap_3.js"></script>

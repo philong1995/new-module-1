@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Nhập Điểm Sinh Viên</title>
 </head>
 <body>
-$END$
+<form>
+    <fieldset>
+        <legend><h1 style="color: #d61b06">Tính Điểm:</h1></legend>
+        <p>Điểm Hoá: <input type="text" id="che"></p>
+        <p>Điểm Lý: <input type="text" id="phy"></p>
+        <p>Điểm Toán:<input type="text" id="math"></p>
+        <input type="button" value="Tính" onclick="tinhToan()">
+        <p id="tong"></p>
+        <p id="trungBinh"></p>
+    </fieldset>
+</form>
 </body>
 </html>
+<script src="js/bai_1.js"></script>

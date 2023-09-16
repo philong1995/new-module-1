@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<fieldset>
+    <legend><h1 style="color: #d61b06">Chuyển đổi tiền tệ</h1></legend>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="number">
+            </td>
+            <td>
+                <select id="fromCurrency">
+                    <option value="VND">VND</option>
+                    <option value="USD">USD</option>
+                </select>
+            </td>
+            <td>
+                <select id="toCurrency">
+                    <option value="USD">USD</option>
+                    <option value="VND">VND</option>
+                </select>
+            </td>
+            <td>
+                <input type="button" value="Convert" style="background-color: violet" onclick="convert()">
+            </td>
+        </tr>
+    </table>
+    <p id="result"></p>
+</fieldset>
 </body>
 </html>
+<script src="js/bai_tap_2.js"></script>
